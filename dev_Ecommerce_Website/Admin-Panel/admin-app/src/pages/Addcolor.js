@@ -12,7 +12,7 @@ let Schema = Yup.object({
   title: Yup.string().required("Color Is Requried"),
 });
 
-
+// add colour 
 const Addcolor = () => {
 
   const dispatch = useDispatch();
