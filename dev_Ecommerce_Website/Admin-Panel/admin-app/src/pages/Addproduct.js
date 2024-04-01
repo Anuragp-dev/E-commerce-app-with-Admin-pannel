@@ -82,6 +82,7 @@ const coloropt = [];
         });
     });
 
+    // couldinary image 
     const img = [];
     imgState.forEach((i) => {
         img.push({
