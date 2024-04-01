@@ -36,7 +36,7 @@ let Schema = Yup.object({
 });
 
 
-
+// add product 
 const Addproduct = () => {
     const [color, setColor] = useState([]);
     const dispatch = useDispatch();
