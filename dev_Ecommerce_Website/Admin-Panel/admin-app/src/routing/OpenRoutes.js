@@ -1,7 +1,7 @@
 import { Navigate } from "react-router-dom";
 
 
-
+// open route
 
 export const OpenRoutes = ({children}) => {
     const getTokenFromLocalStorage = JSON.parse(localStorage.getItem("user"))
