@@ -8,7 +8,7 @@ import {useLocation, useNavigate } from "react-router-dom";
 import { createBrands, getABrand, updateABrand } from '../features/brand/brandSlice';
 import { resetState } from '../features/blogcategory/bcategorySlice';
 
-
+// yup validation
 let Schema = Yup.object({
   title: Yup.string().required("Brand Name Is Requried"),
 });
