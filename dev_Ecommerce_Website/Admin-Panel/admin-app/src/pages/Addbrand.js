@@ -13,6 +13,7 @@ let Schema = Yup.object({
   title: Yup.string().required("Brand Name Is Requried"),
 });
 
+// add brand 
 const Addbrand = () => {
   const dispatch = useDispatch();
   const location = useLocation();
