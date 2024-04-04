@@ -75,6 +75,7 @@ const Addbrand = () => {
     });
    
   return (
+    // brand
     <div>
     <h3 className="mb-4  title">{ getBrandId !== undefined ? "Edit":"Add" } Brand</h3>
     <div>
