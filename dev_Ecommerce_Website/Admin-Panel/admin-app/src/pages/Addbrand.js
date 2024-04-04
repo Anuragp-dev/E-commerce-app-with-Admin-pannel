@@ -31,7 +31,7 @@ const Addbrand = () => {
   const navigate = useNavigate();
 
 
-
+// useeffect of brand
   useEffect(() => {
      
       if(isSuccess && createdBrands) {
