@@ -23,6 +23,7 @@ const MainLayout = () => {
     token: { colorBgContainer },
   } = theme.useToken();
   const navigate = useNavigate();
+  // main layout
   return (
     <Layout>
       <Sider trigger={null} collapsible collapsed={collapsed}>
