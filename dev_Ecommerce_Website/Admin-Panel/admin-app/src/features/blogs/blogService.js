@@ -3,7 +3,7 @@ import { base_url } from "../../utils/base_url";
 import { config } from "../../utils/axiosconfig";
 
 
-
+// blog 
 const createBlogs = async (blog) => {
     const response = await axios.post(`${base_url}blog/`, blog, config);
     return response.data;
