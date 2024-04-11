@@ -14,6 +14,7 @@ const getBlogs = async () => {
     return response.data;
 }
 
+// get blog
 const getBlog = async (id) => {
     const response = await axios.get(`${base_url}blog/${id}`,config);
     return response.data;
