@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-// Declare the Schema of the Mongo model
+// cart Declare the Schema of the Mongo model
 const cartSchema = new mongoose.Schema(
     {
    userId : {
