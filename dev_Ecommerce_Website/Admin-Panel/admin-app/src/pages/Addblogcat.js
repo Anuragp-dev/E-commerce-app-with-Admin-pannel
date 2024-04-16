@@ -14,7 +14,7 @@ let Schema = Yup.object({
   title: Yup.string().required("Blog Category Is Requried"),
 });
 
-
+// add blog
 const Addblogcat = () => {
   const location = useLocation();
   const dispatch = useDispatch();
