@@ -1,7 +1,7 @@
 import React from 'react'
 import { Modal } from 'antd';
 
-// coustom modal 
+// coustom modals 
 const CustomModal = (props) => {
     const { open, hideModal , performAction , title } = props;
   return (
