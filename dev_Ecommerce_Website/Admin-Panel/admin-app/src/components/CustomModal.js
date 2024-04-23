@@ -14,7 +14,8 @@ const CustomModal = (props) => {
         cancelText="Cancel"
       >
         <p>{ title }</p>
-        
+
+     // model
       </Modal>
   )
 }
