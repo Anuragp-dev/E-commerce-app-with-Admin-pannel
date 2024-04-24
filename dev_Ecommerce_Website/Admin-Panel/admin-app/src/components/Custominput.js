@@ -1,6 +1,6 @@
 import React from 'react';
 
-// custom inputs
+// custom inputss
 const Custominput = (props) => {
     const {type  , label, i_id, i_className,name , value,onChange,onBlur} = props
   return (
