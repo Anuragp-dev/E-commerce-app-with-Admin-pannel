@@ -18,7 +18,8 @@ import couponReducer from "../features/coupon/couponSlice.js";
 
 
 
-// STORE 
+// STORE confiq 
+
 export const store = configureStore({
     reducer : { 
         auth: authReducer ,
