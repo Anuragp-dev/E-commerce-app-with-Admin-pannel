@@ -18,7 +18,7 @@ import couponReducer from "../features/coupon/couponSlice.js";
 
 
 
-// STORE confiq 
+// STORE confiq redux
 
 export const store = configureStore({
     reducer : { 
