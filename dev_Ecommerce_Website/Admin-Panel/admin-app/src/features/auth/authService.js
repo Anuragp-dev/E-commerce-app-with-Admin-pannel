@@ -33,7 +33,7 @@ const getOrder = async (id) => {
 }
 
 
-
+// update order 
 const updateOrder = async (data) => {
     const response = await axios.put(`${base_url}user/updateorder/${data.id}`,{status:data?.status }, config);
     return response.data;
