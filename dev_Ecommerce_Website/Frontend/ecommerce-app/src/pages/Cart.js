@@ -8,6 +8,9 @@ import Container from '../components/Container';
 import { useDispatch, useSelector } from 'react-redux';
 import { deleteAProductFromCart, getUserCart, updateAProductFromCart } from '../features/user/userSlice';
 
+
+
+// cart 
 const Cart = () => {
 
     const getTokenFromLocalStorage = localStorage.getItem('customer')
