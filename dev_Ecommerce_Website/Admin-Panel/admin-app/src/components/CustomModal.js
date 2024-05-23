@@ -15,7 +15,7 @@ const CustomModal = (props) => {
       >
         <p>{ title }</p>
 
-     // model
+     // model confirmation 
       </Modal>
   )
 }
