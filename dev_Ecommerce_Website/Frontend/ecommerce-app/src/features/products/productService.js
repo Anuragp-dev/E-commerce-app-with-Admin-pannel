@@ -1,7 +1,7 @@
 import axios from "axios";
 import { base_url, config } from "../../Utils/axiosConfig";
 
-
+// product service 
 
 // get product
 const getProducts = async (data) => {
