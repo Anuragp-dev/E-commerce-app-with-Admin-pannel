@@ -3,7 +3,7 @@ import { validdateMongoDbId } from "../utils/validateMongodbid.js";
 import asyncHandler from "express-async-handler";
 
 
-
+// create coupon
 export const  createCoupon = asyncHandler(async (req,res) => {
     try {
         const newCoupon = await Coupon.create(req.body);
