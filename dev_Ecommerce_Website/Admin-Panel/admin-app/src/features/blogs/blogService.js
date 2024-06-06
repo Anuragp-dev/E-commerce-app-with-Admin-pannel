@@ -19,7 +19,7 @@ const getBlog = async (id) => {
     const response = await axios.get(`${base_url}blog/${id}`,config);
     return response.data;
 }
-
+// update  blog 
 const updateBlog = async (blog) => {
     const response = await axios.put(`${base_url}blog/${blog.id}`,
     {
