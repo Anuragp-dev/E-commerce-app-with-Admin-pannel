@@ -8,7 +8,7 @@ const createBlogs = async (blog) => {
     const response = await axios.post(`${base_url}blog/`, blog, config);
     return response.data;
 }
-
+// get blogs 
 const getBlogs = async () => {
     const response = await axios.get(`${base_url}blog/`);
     return response.data;
