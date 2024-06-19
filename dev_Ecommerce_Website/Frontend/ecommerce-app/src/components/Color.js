@@ -1,4 +1,5 @@
 import React from 'react';
+// color
 
 const Color = ({colorData , setColor}) => {
     return (
