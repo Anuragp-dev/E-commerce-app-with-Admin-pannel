@@ -17,6 +17,8 @@ const contactSchema = yup.object({
   comment: yup.string().required("Comment Is Required"),
 });
 
+
+// contact us page 
 const Contact = () => {
 
   const dispatch = useDispatch();
