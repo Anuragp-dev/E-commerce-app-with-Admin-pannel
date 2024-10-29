@@ -1,4 +1,4 @@
-// sample data 
+// sample dat
 export const services = [
     {
 
