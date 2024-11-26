@@ -1,6 +1,6 @@
 import React from 'react'
 import { Modal } from 'antd';
-
+ 
 // coustom models for opens for conformations 
 const CustomModal = (props) => {
     const { open, hideModal , performAction , title } = props;
