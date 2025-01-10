@@ -6,7 +6,7 @@ import { validdateMongoDbId } from "../utils/validateMongodbid.js";
 
 
 
-export const createBlog = asyncHandler(async(req,res) => {
+export const createBlog = asyncHandler(async(req,res) => { 
     try {
         const newBlog = await Blog.create(req.body);
         res.json(newBlog);
