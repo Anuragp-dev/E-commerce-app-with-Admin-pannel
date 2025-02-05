@@ -8,7 +8,7 @@ import colorReducer from "../features/color/colorSlice.js";
 import blogReducer from "../features/blogs/blogSlice.js";
 import bcategoryReducer from "../features/blogcategory/bcategorySlice.js";
 import enquiryReducer from "../features/enquiry/enquirySlice.js";
-import uploadReducer from "../features/upload/uploadSlice.js";
+import uploadReducer from "../features/upload/uploadSlice.js"; 
 import couponReducer from "../features/coupon/couponSlice.js";
 
 
