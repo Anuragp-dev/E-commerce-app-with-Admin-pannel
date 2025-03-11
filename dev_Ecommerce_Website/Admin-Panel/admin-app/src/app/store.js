@@ -1,6 +1,6 @@
 import {configureStore} from "@reduxjs/toolkit";
 import authReducer from "../features/auth/authSlice.js";
-import customerReducer from "../features/customers/customerSlice.js";
+import customerReducer from "../features/customers/customerSlice.js"; 
 import productReducer from "../features/product/productSlice.js";
 import brandReducer from "../features/brand/brandSlice.js";
 import pcategoryReducer from "../features/productCategory/pcategorySlice.js";
